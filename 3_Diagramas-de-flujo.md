@@ -15,3 +15,9 @@ Nótese que la segunda tabla contiene símbolos que representan lo mismo que en 
 <img  src="assets/simbolos-de-diagramas-de-flujo.png"  alt="FlowchartSimbol">
 	  
 <img  src="assets/simbolos-de-diagramas-de-flujo2.png"  alt="FlowchartSimbol">
+
+### Importancia de aprender a usar diagramas de flujo
+
+La habilidad de diseñar y crear diagramas de flujo es valiosa no solo en programación, sino en todas las ramas de la ingeniería. Para programadores e ingenieros de sistemas, representar un proceso de forma gráfica ayuda a evitar errores lógicos y facilita el diseño de algoritmos óptimos para diversas situaciones.
+
+Aunque es poco probable que te contraten exclusivamente para dibujar diagramas de flujo, dominar esta herramienta te permitirá representar visualmente procesos complejos, cuya lógica puede ser difícil de comprender directamente. Esto se aplica no solo a procesos informáticos, sino también a producción, cadenas de suministro, y otros sistemas.
