@@ -69,6 +69,7 @@ Los tres paradigmas de lenguajes de programación más populares son:
 -	**Funcional**: El código se enfoca en describir qué se quiere lograr, sin preocuparse por cómo se logra. Las funciones deben ser idempotentes y no tener efectos secundarios, y los datos son inmutables. Además, la programación funcional se basa en la recursividad para resolver problemas, lo que puede ser más eficiente que el enfoque imperativo.
 	
 -	**Orientado a Objetos (OOP)**: El código en torno a "objetos", que son instancias de "clases". Las clases definen atributos (propiedades) y métodos (funciones) que los objetos pueden tener. 
+    
     **Características clave del OOP**
 
     -   **Encapsulamiento**: la información o estado de los atributos se protege para que no se pueda ver o modificar sin el mecanismo adecuado.
