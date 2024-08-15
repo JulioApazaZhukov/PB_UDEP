@@ -14,7 +14,7 @@ Nótese que la segunda tabla contiene símbolos que representan lo mismo que en 
 
 <img  src="assets/simbolos-de-diagramas-de-flujo.png"  alt="FlowchartSimbol">
 	  
-<img  src="assets/simbolos-de-diagramas-de-flujo2.png"  alt="FlowchartSimbol">
+<img  src="assets/simbolos-de-diagramas-de-flujo2.png"  width="480" alt="FlowchartSimbol">
 
 ### Importancia de aprender a usar diagramas de flujo
 
