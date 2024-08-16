@@ -73,5 +73,13 @@ if(p && q){}		// Si se cumple que p y q se cumplen
 if(p || q){}		// Si p o q se cumplen
 ```
 
+### Nota adicional sobre estruturas de datos
+
+Las estructuras de datos son formas organizadas de almacenar y gestionar datos en un sistema informático, de manera que puedan ser utilizados de una manera más eficiente. Las estructuras de datos más simples de comprender (y que probablemente veremos hacia el final del curso de PB) son los arreglos de una y dos dimenciones (matrices).
+
+Otras estructuras de datos de tipo abstracto son: las listas enlazadas, las pilas (stacks), las colas (queues), los árboles (como el árbol binario y el B-Tree), los grafos y las tablas de hash.
+
+***Más sobre ellos más adelante.***
+
 #### Nota
 Esta hoja la he escrito completamente a mano, usando como única herramienta adicional un autocorrector algo intrusivo, por lo que agradecería que me avisen si avistan algún error ortográfico o alguna palabra fuera de lugar.
