@@ -79,7 +79,7 @@ Las estructuras de datos son formas organizadas de almacenar y gestionar datos e
 
 Otras estructuras de datos de tipo abstracto son: las listas enlazadas, las pilas (stacks), las colas (queues), los árboles (como el árbol binario y el B-Tree), los grafos y las tablas de hash.
 
-***Más sobre ellos más adelante.***
+***Más sobre las estructuras de datos abstractos más adelante.***
 
 #### Nota
 Esta hoja la he escrito completamente a mano, usando como única herramienta adicional un autocorrector algo intrusivo, por lo que agradecería que me avisen si avistan algún error ortográfico o alguna palabra fuera de lugar.

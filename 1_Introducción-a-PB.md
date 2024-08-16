@@ -2,7 +2,7 @@
 
 A continuación se revisará:
 
-- ¿Qué Que se entiende por computadora?
+-   ¿Qué se entiende por computadora?
 
 -   ¿Cuáles son las partes de un ordenador?
 
