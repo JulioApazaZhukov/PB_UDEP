@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/.git": false
+    },
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}
