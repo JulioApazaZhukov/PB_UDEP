@@ -1,6 +1,6 @@
 /*  
 *   Este código incluye una serie de algoritmos básicos en forma de funciones que podrán ser seleccionadas y probadas desde la terminal.
-*   Los algoritmos a continuación son sencillos, pero no necesariamente son óptimos para la resolución del respectivo problema.
+*   Código no optimizado.
 *   La terminal no soporta tildes (en las variables y funciones)
 */
 
@@ -62,7 +62,7 @@ void secuenciaDeFibonacci(void){
         cout << numero << " ";
         rango--;
     }
-}   // Spaguetti
+}   // Spaguetti!!!
 
 int main(void){
     int input;

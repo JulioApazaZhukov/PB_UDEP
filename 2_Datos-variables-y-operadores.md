@@ -73,7 +73,7 @@ if(p && q){}		// Si se cumple que p y q se cumplen
 if(p || q){}		// Si p o q se cumplen
 ```
 
-### Nota adicional sobre estruturas de datos
+### Nota adicional sobre estructuras de datos
 
 Las estructuras de datos son formas organizadas de almacenar y gestionar datos en un sistema informático, de manera que puedan ser utilizados de una manera más eficiente. Las estructuras de datos más simples de comprender (y que probablemente veremos hacia el final del curso de PB) son los arreglos de una y dos dimenciones (matrices).
 
