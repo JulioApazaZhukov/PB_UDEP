@@ -82,11 +82,49 @@ void promedioPonderado(void){
     cout << "El promedio ponderado es: " << promedio << endl;
 }
 
+void printArray(int array[], int size){
+    for (int i = 0; i < size; i++){
+        cout << array[i] << " ";
+    }
+    cout << endl;
+}
+
+void swap(int array[], int i){
+    int aux = array[i];
+    array[i] = array[i+1];
+    array[i+1] = aux;
+}
+
+void bubbleSort(void){
+    int array[100];
+    char continuar;
+    int i = 0;
+    do {
+        cout << "Ingrese un elemento: ";
+        cin >> array[i];
+        cout << "Ordenar?(s) ";
+        cin >> continuar;
+        i++;
+    } while(continuar != 's');
+    cout << endl;
+    int size = i;
+    printArray(array, size);
+    for (int j = 0; j < size; j++){
+        int aux = 0;
+        for (int i = 0; i < size; i++){
+            if (array[i] > array[i+1]){
+                swap(array, i);
+            }
+        }
+    }
+    printArray(array, size);
+}
+
 int main(void){
     int input;
     char continuar;
     do{
-        cout << "Elija una opcion: " << endl << "1. Comprueba si un numero es primo" << endl << "2. Calcula el factorial de un numero" << endl << "3. Escribe la sucesion de Fibonacci" << endl << "4. Calcula el promedio ponderado" << endl;
+        cout << "Elija una opcion: " << endl << "1. Comprueba si un numero es primo" << endl << "2. Calcula el factorial de un numero" << endl << "3. Escribe la sucesion de Fibonacci" << endl << "4. Calcula el promedio ponderado" << endl << "5. Ordena numeros (Bubblesort)" << endl;
         cin >> input;
         switch (input){
         case 1:
@@ -100,6 +138,9 @@ int main(void){
             break;
         case 4:
             promedioPonderado();
+            break;
+        case 5:
+            bubbleSort();
             break;
         default:
             break;
