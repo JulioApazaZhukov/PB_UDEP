@@ -15,7 +15,7 @@ void esPrimo(void){
     int numero, prueba;
     bool comprobacion = 1;
     cout << "Ingrese un numero entero positivo: ";
-    do{
+    do {
         cin >> numero;
     } while(numero <= 0);
     prueba = numero-1;
@@ -30,7 +30,7 @@ void esPrimo(void){
 void factorial(void){
     int numero, productoFactorial = 1;
     cout << "Ingrese un numero entero positivo: ";
-    do{
+    do {
         cin >> numero;
     } while(numero < 0);
     if (numero == 0){
@@ -48,27 +48,45 @@ void factorial(void){
 void secuenciaDeFibonacci(void){
     int numero, auxiliar1, auxiliar2, rango;
     cout << "Ingrese un numero entero positivo: ";
-    do{
+    do {
         cin >> rango;
     } while(rango < 0);
     numero = 0;
     auxiliar1 = 0;
     auxiliar2 = 1;
     cout << numero + auxiliar2 << " ";
-    while (rango > 1){
+    while(rango > 1){
         numero = auxiliar1 + auxiliar2;
         auxiliar1 = auxiliar2;
         auxiliar2 = numero;
         cout << numero << " ";
         rango--;
     }
-}   // Spaguetti!!!
+}
+
+void promedioPonderado(void){
+    int nota, notaProducto, peso, pesoSuma;
+    notaProducto = pesoSuma = 0;
+    char continuar;
+    do {
+        cout << "Ingrese nota: ";
+        cin >> nota;
+        cout << "Ingrese peso: ";
+        cin >> peso;
+        cout << "Continuar ingresando? (s/n): ";
+        cin >> continuar;
+        notaProducto += nota*peso;
+        pesoSuma += peso;
+    } while(continuar == 's');
+    float promedio = notaProducto / pesoSuma;
+    cout << "El promedio ponderado es: " << promedio << endl;
+}
 
 int main(void){
     int input;
     char continuar;
     do{
-        cout << "Elija una opcion: " << endl << "1. Comprueba si un numero es primo" << endl << "2. Calcula el factorial de un numero" << endl << "3. Escribe la sucesion de Fibonacci" << endl;
+        cout << "Elija una opcion: " << endl << "1. Comprueba si un numero es primo" << endl << "2. Calcula el factorial de un numero" << endl << "3. Escribe la sucesion de Fibonacci" << endl << "4. Calcula el promedio ponderado" << endl;
         cin >> input;
         switch (input){
         case 1:
@@ -80,6 +98,9 @@ int main(void){
         case 3:
             secuenciaDeFibonacci();
             break;
+        case 4:
+            promedioPonderado();
+            break;
         default:
             break;
         }
@@ -87,7 +108,5 @@ int main(void){
         cin >> continuar;
     } while(continuar == 's');
 
-    int finalizar;
-    cin >> finalizar;
     return 0;
 }
