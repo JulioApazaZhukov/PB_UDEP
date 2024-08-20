@@ -64,6 +64,7 @@ void secuenciaDeFibonacci(void){
     }
 }
 
+//  Calcula el promedio ponderado
 void promedioPonderado(void){
     int nota, notaProducto, peso, pesoSuma;
     notaProducto = pesoSuma = 0;
@@ -82,6 +83,7 @@ void promedioPonderado(void){
     cout << "El promedio ponderado es: " << promedio << endl;
 }
 
+//  Parte de la función bubblesort
 void printArray(int array[], int size){
     for (int i = 0; i < size; i++){
         cout << array[i] << " ";
@@ -89,12 +91,14 @@ void printArray(int array[], int size){
     cout << endl;
 }
 
+//  Parte de la función bubblesort
 void swap(int array[], int i){
     int aux = array[i];
     array[i] = array[i+1];
     array[i+1] = aux;
 }
 
+//  Aplica bubblesort a una serie de números ingresados por el usuario
 void bubbleSort(void){
     int array[100];
     char continuar;
@@ -120,11 +124,27 @@ void bubbleSort(void){
     printArray(array, size);
 }
 
+void imprimirNumerosPrimos(void){
+    int numero, prueba;
+    numero = 3;
+
+    while(true){
+        bool comprobacion = 1;
+        prueba = numero - 1;
+        while(prueba > 1){
+            if (numero % prueba == 0){comprobacion = prueba = 0;}
+            prueba--;
+        }
+        if (comprobacion == 1){cout << numero << endl;} 
+        numero = numero + 2;
+    }
+}
+
 int main(void){
     int input;
     char continuar;
     do{
-        cout << "Elija una opcion: " << endl << "1. Comprueba si un numero es primo" << endl << "2. Calcula el factorial de un numero" << endl << "3. Escribe la sucesion de Fibonacci" << endl << "4. Calcula el promedio ponderado" << endl << "5. Ordena numeros (Bubblesort)" << endl;
+        cout << "Elija una opcion: " << endl << "1. Comprueba si un numero es primo" << endl << "2. Calcula el factorial de un numero" << endl << "3. Escribe la sucesion de Fibonacci" << endl << "4. Calcula el promedio ponderado" << endl << "5. Ordena numeros (Bubblesort)" << endl << "6. Imprimir todos los numeros primos que int es capaz de representar" << endl;
         cin >> input;
         switch (input){
         case 1:
@@ -141,6 +161,9 @@ int main(void){
             break;
         case 5:
             bubbleSort();
+            break;
+        case 6:
+            imprimirNumerosPrimos();
             break;
         default:
             break;

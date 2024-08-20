@@ -8,7 +8,7 @@ También se incluirá parte de la teoría necesaria para rendir las prácticas y
 
 La teoría del curso más adelante se encontrará en la carpeta **Documentación**. 
 
-Los ejercicios resueltos estaran guardados en la carpeta **Ejercicios resueltos**.
+Los ejercicios resueltos estarán guardados en la carpeta **Ejercicios resueltos**.
 Las fichas de enunciados tendrán por nombre un número y el nombre del tema a desarrollar.
 
 Las implementaciones de código estarán nombradas de la siguiente forma:
@@ -16,3 +16,7 @@ Las implementaciones de código estarán nombradas de la siguiente forma:
 ***Numero.numero.tema***
 
 El primer número hará referencia a su ficha de enunciados, el segundo número hará referencia al número de problema de la ficha de enunciados, el nombre del tema coincidirá con su respectiva ficha de enunciados.
+
+## Implementaciones extracurriculares
+
+En esta carpeta pondré ejemplos de algoritmos y programas sensillos que creé por iniciativa propia y que hacen uso de funciones y conceptos que podrían no revisarse en el curso de PB.
