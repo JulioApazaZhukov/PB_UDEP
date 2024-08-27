@@ -48,7 +48,7 @@ Los lenguajes de programación son sistemas formales compuestos por un conjunto 
 
 Existen muchos lenguajes de programación, cada uno diseñado con un propósito específico o con características que lo hacen más adecuado para ciertos tipos de tareas. Por ejemplo, **Python** es conocido por su simplicidad y versatilidad, lo que lo convierte en un buen lenguaje para principiantes y para desarrollo web, análisis de datos, y automatización. **JavaScript** es fundamental para el desarrollo de aplicaciones web interactivas, mientras que **C++** y **Java** son populares en el desarrollo de software de alto rendimiento y aplicaciones móviles.
 
-Tradicionalmente, en un curso universitario de programación, se haría una breve introducción a la sintaxis de un lenguaje de programación como C o C++ para inmediatamente después pasar a DSA (Data Structures and Algorithms) y continuar aprendiendo y dominando los fundamentos sobre la marcha. Sin embargo, la UDEP tomó la decisión de desarrollar los aspectos más básicos de la programación y la sintaxis de Python durante un ciclo entero, lo que representa una oportunidad para subir nota.
+Tradicionalmente, en un curso universitario de programación, se haría una breve introducción a la sintaxis de un lenguaje de programación como C o C++ para inmediatamente después pasar a DSA (Data Structures and Algorithms) y continuar aprendiendo y dominando los fundamentos sobre la marcha. Sin embargo, la UDEP tomó la decisión de desarrollar los aspectos más básicos de la programación y la sintaxis de Python durante un ciclo entero, lo que representa una oportunidad para tomarselo con calma.
 
 Regresando a la teoría, los lenguajes de programación se pueden dividir en tres grupos por tipo de ejecución:
 
