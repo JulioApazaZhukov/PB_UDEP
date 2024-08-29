@@ -1,4 +1,4 @@
-añoDeNacimiento = int(input('Ingrese su año de nacimiento'))
+añoDeNacimiento = int(input('Ingrese su año de nacimiento: '))
 edad = 2024 - añoDeNacimiento
 
 if edad > 0 and edad < 18:
