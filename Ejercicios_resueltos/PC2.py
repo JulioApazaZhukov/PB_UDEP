@@ -14,7 +14,7 @@ if edad >= 40 and montoAhorrado > 5150:
     nuit = montoAhorrado / 5150
     if 2 >= nuit > 1:
         resto = montoAhorrado - 5150
-        print("Le corresponde una armadas de 5150 y una de", resto)
+        print("Le corresponde una armada de 5150 y una de", resto)
     elif 3 >= nuit > 2:
         resto = montoAhorrado - 10300
         print("Le corresponde dos armadas de 5150 y una de", resto)
