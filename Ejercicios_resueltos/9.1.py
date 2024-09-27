@@ -22,7 +22,10 @@ while True:
     else: 
             numDias = 31
     if dia >= 1 and dia <= numDias:
-        print("Fecha valida: ", dia, "-", mes, "-", año)
+        if mes >= 10:
+            print("Fecha valida: ", dia, "-", mes, "-", año)
+        else: 
+            strMes = str(mes)
+            print("Fecha valida: ", dia, "- 0" + strMes, "-", año)
         break
-    else: print("Día no valido")
-        
+    else: print("Día no valido")        
