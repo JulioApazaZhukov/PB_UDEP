@@ -1,3 +1,5 @@
+import sys
+
 name = input("Name: ")
 
 print("Hello,", name)       # "," automatically creates a space
@@ -24,12 +26,12 @@ def exponentiation(n, e):
     return r
 print(exponentiation(base, exponent))
 
-array = ["1", "2", "3"]
+array = ["1", "2", "3"] # Lists = Arrays
 print(array)
 array.append("five")
 print(array)
 
-s = set()
+s = set() # Data type similar to lists, but without repetitions
 
 s.add(1)
 s.add(2)
@@ -43,6 +45,7 @@ print(f"The set has {len(s)} elements")
 for i in range(0, 11, 2):       # ... in range(start, stop, step):
     print(i)
 
+#Dictionaries: key:value
 capitals = {"Peru": "Lima", 
             "Russia": "Moscow",
             "Argentina": "Buenos Aires"}
@@ -73,3 +76,43 @@ for person in people:
         print(f"Added {person} to flight successfully.")
     else:
         print(f"No available seats for {person}")
+
+def announce(f):
+    def wrapper():
+        print("Abbout to run the function...")
+        f()
+        print("Done whith the function.")
+    return wrapper
+@announce
+def hello():
+    print("Hello, world!")
+hello()
+
+# lambda
+people = [
+    {"name": "Harry", "house": "Gryffindor"},
+    {"name": "Cho", "house": "Ravenclaw"},
+    {"name": "Draco", "house": "Slytherin"}
+]
+
+def funct(person):
+    return person["name"]
+
+people.sort(key=funct)
+print(people)
+
+# Exeptions (8.1.py, 8.2.py)
+try:
+    x = int(input("x: "))
+    y = int(input("y: "))
+except ValueError:
+    print("Error: Only numbers accepted.")
+    sys.exit(1)
+
+try:
+    result = x / y
+except ZeroDivisionError:
+    print("Error: Cannot devide by 0.")
+    sys.exit(1)
+
+print(f"{x} / {y} = {result}")
