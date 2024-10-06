@@ -1,4 +1,3 @@
-'''
 name = input("Name: ")
 
 print("Hello,", name)       # "," automatically creates a space
@@ -43,7 +42,6 @@ print(f"The set has {len(s)} elements")
 
 for i in range(0, 11, 2):       # ... in range(start, stop, step):
     print(i)
-'''
 
 capitals = {"Peru": "Lima", 
             "Russia": "Moscow",
@@ -51,6 +49,7 @@ capitals = {"Peru": "Lima",
 
 print(capitals["Peru"])
 
+# OOP
 class Flight():
     def __init__(self, capacity):
         self.capacity = capacity
@@ -67,6 +66,7 @@ class Flight():
 
 flight = Flight(3)
 people = ["Albert", "Immanuel", "Josh", "Dennis"]
+
 for person in people:
     success = flight.add_passenger(person)
     if success:
