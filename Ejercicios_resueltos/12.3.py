@@ -5,7 +5,7 @@ arrsize = int(input("Cantidad de elementos a ingresar: "))
 for i in range(arrsize):
     while True:
         value = int(input("Ingrese la nota #" + str(i+1) + ":"))
-        if value != '': break
+        if value != '' and 0 <= value <= 20: break
     values.append(value)
     while True:
         weight = int(input("Ingrese el peso de la nota #" + str(i+1) + ":"))
