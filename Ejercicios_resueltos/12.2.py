@@ -3,8 +3,11 @@ array = []
 arrsize = int(input("Cantidad de elementos a ingresar: "))
 for i in range(arrsize):
     while True:
-        nota = int(input("Ingrese la nota #" + str(i+1) + ":"))
-        if nota != '' and 0 <= nota <= 20: break
+        try:
+            nota = int(input("Ingrese la nota #" + str(i+1) + ":"))
+            if nota != '' and 0 <= nota <= 20: break
+        except ValueError as ve:
+            print("Only numbers accepted")
     array.append(nota)
 
 print(array)
