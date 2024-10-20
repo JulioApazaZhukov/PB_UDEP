@@ -43,4 +43,3 @@ Haga un programa que solicite al alumno los siguientes datos: (8p)
 El programa debe imprimir si se puede inscribir en el curso o no. (12p)
 
 A continuación, se muestran los cursos y sus requisitos. Si el curso que desea llevar no aparece en la tabla, el programa debe indicar que sí puede llevarlo.
-
