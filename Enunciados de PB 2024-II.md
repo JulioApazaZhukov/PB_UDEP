@@ -1,5 +1,17 @@
 # Todos los enunciados de PB 2024-II
 
+## Íncide: 
+
+- **Entrada y salida: clase 1**
+
+- **Condicionales if elif else: clases 2, 3 y 4**
+
+- **Bucles while y for: clases 5, 6, 7 y 8**
+
+- **Fechas: clases 9,10 y 11**
+
+- **Arrays: clases 12 y 13**
+
 ## Clase 1
 
 1.  Escriba un programa que pida el año de nacimiento e imprima la edad.
