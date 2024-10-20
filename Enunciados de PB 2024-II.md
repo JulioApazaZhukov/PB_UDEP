@@ -1,6 +1,6 @@
 # Todos los enunciados de PB 2024-II
 
-## Íncide: 
+## Índice: 
 
 - **Entrada y salida: clase 1**
 
