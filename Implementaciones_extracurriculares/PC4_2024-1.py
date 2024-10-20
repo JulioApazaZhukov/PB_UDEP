@@ -1,20 +1,19 @@
 fechas_entrega = []
 fechas_correccion = []
 diasMes = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-cant_de_trabajos = 2
+cant_de_trabajos = 8
 
-for i in range(cant_de_trabajos):
-    while True:
-        año = int(input(f'Ingrese el año de la fecha de entrega del trabajo {i+1}:'))
+while True:
+        año = int(input(f'Ingrese el año de la fecha de entrega del trabajo: '))
         if año >= 1900 and año < 2100:
             break
 
-    bisiesto = 0
-    if año % 4 == 0 and (año % 100 != 0 or año % 400 == 0):
-        bisiesto = 1
-    
-    diasMes[1] = 28 + bisiesto
+bisiesto = 0
+if año % 4 == 0 and (año % 100 != 0 or año % 400 == 0):
+    bisiesto = 1
 
+for i in range(cant_de_trabajos):
+    diasMes[1] = 28 + bisiesto
     while True:
         mes = int(input(f'Ingrese el mes de entrega del trabajo {i+1}:'))
         if mes >= 1 and mes <= 12:
