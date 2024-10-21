@@ -1,1 +1,5 @@
 *.exe
+
+__pycacke__/**
+
+output/**
