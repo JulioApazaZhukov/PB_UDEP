@@ -4,7 +4,7 @@ while True:
         break
 
 bisiesto=0
-if año%4==0 and (año%100!=0 or año%400==0):
+if año%4 == 0 and (año%100 != 0 or año%400 == 0):
     bisiesto=1
 while True:
     mes = int(input('Ingrese el mes: '))
