@@ -1,6 +1,6 @@
 fechas_entrega = []
 fechas_correccion = []
-cant_de_trabajos = 3
+cant_de_trabajos = 8 #Sugiero cambiar el valor por 2 o 3 para las pruebas
 
 '''
 Los requerimientos finales son:
