@@ -178,3 +178,9 @@ N/A significa que no se aplica ese criterio para la modalidad de admisión.
 1. Escriba un programa que lea 1 fecha y la valide.
 
 2. Escribir un programa que lea 2 fechas y calcule la diferencia de días entre ellas.
+
+## Clase 14
+
+1. Escriba un programa que pida al usuario un número e imprima si está o no está en la lista.
+
+2. Escriba un programa que lea un número y valide que esté en la lista.
