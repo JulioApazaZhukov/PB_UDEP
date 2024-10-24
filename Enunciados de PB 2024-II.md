@@ -186,3 +186,13 @@ N/A significa que no se aplica ese criterio para la modalidad de admisión.
 2. Escriba un programa que lea un número y valide que esté en la lista.
 
 3. Dada la lista x, haga un programa que guarde las frecuencias de todos sus valores en una lista f. 
+
+## Clase 15
+
+1. Imprimir cuantas veces aparece cada valor de x sin repetir ninguno de los valores.
+
+2. Dada la lista x, haga un programa que imprima qué valor se repite más.
+
+3. Dada la lista x, haga un programa que imprima los valores más frecuentes de x y cuántas veces se repite cada uno.
+
+4. Dada la lista, escriba un programa que calcule el promedio anulando los dos valores más bajos.
