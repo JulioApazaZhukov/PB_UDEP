@@ -196,3 +196,11 @@ N/A significa que no se aplica ese criterio para la modalidad de admisión.
 3. Dada la lista x, haga un programa que imprima los valores más frecuentes de x y cuántas veces se repite cada uno.
 
 4. Dada la lista, escriba un programa que calcule el promedio anulando los dos valores más bajos.
+
+## Clase 16
+
+1. Dada una lista X, haga un programa que encuentre los 2 menores valores de la lista.
+
+2. Dada la lista, ordenar los valores en forma ascendente.
+
+3. Escriba un programa que lea 10 notas de prácticas y calcule el promedio anulando las tres menores.
