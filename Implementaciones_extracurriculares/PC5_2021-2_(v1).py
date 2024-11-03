@@ -33,7 +33,6 @@ def contar_palabras(texto):
 
 texto = input("Ingresa un texto de al menos 20 palabras: ")
 
-# Texto es True o False (boleano)
 if validar_texto(texto):
     primera, segunda = contar_palabras(texto)
     print(f"La palabra más repetida es: '{primera}'")
