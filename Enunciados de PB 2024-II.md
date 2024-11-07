@@ -10,7 +10,11 @@
 
 - **Fechas: clases 9,10 y 11**
 
-- **Arrays: clases 12 y 13**
+- **Arrays: clases 12, 13, 14 y 15**
+
+- **Ordenamiento: clases 16, 17 y 18**
+
+- **Funciones: clases 19 y ...**
 
 ## Clase 1
 
@@ -215,3 +219,17 @@ N/A significa que no se aplica ese criterio para la modalidad de admisión.
 - El nombre no puede ser vacío
 - El nombre debe comenzar en mayúscula
 - Solo debe ingresar 1 nombre.
+
+## Clase 18
+
+1. Escriba un programa que lea una oración y valide que tenga al menos 3 palabras e imprima cada palabra por separado.
+
+2. Haga un programa que lea un texto t y una palabra p y valide que p aparezca dentro de t. El programa debe imprimir cuantas veces aparezca p en t.
+
+## Clase 19
+
+1. Escriba un programa que lea un número entero positivo e imprima si es par o impar. Use una función para saber si es par o impar.
+
+2. Escriba un programa que haga la suma de los 10 pimeros numero pares positivos
+
+3. Escriba un programa que lea 10 notas y sus respectivos pesos (1-3) e imprima el promedio ponderado. Se debe anular la menor nota de peso uno.
