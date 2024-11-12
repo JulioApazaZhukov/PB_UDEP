@@ -233,3 +233,17 @@ N/A significa que no se aplica ese criterio para la modalidad de admisión.
 2. Escriba un programa que haga la suma de los 10 pimeros numero pares positivos
 
 3. Escriba un programa que lea 10 notas y sus respectivos pesos (1-3) e imprima el promedio ponderado. Se debe anular la menor nota de peso uno.
+
+## Clase 20
+
+1. Escriba una función que permita redondear un número real. Escriba un programa que lea 4 números reales e imprima la suma de sus redondeados.
+
+2. Escriba un programa que lea un texto de al menos 10 palabras y lo valide. Use una función para contar palabras y una para validar.
+
+3. Escriba una función que lea la placa de un auto y la valide. Una placa válida debe tener las siguientes características:
+
+- Tiene 6 caracteres
+- Empieza en letra
+- Termina en número
+- Debe tener 2 o 3 caracteres alfabéticos entre sus 3 primeros caracteres
+- Los últimos 3 caracteres siempre serán numéricos
