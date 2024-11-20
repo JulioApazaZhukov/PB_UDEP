@@ -5,6 +5,15 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+int main()
+{
+    int numero = 10;
+    int* pNumero;
+    cout << numero << endl;
+    cout << pNumero; 
+    return 0;
+}
+
 // To do
 /*
     Create dynamic matrix
