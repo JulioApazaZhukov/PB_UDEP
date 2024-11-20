@@ -1,0 +1,1 @@
+1. Leer 2 fechas y validar que la segunda sea mayor o igual que la primera. Calcular cuántos días hay entre las 2.

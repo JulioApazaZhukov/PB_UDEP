@@ -259,3 +259,7 @@ N/A significa que no se aplica ese criterio para la modalidad de admisión.
 - El dominio empieza en letra.
 - El usuario debe tener al menos 3 caracteres.
 - El dominio debe tener al menos 6 caracteres.
+
+## Clase 21
+
+1. Leer 2 fechas y validar que la segunda sea mayor o igual que la primera. Calcular cuántos días hay entre las 2.
