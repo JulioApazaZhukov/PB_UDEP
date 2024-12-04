@@ -14,6 +14,7 @@ def obtener_datos_fase_grupos():
             diferencia_goles = goles_a_favor - goles_en_contra
 
             equipos.append([grupo, pais, puntos, diferencia_goles, goles_a_favor])
+            print(equipos)
     return equipos
 
 def clasificar_a_octavos(equipos):
