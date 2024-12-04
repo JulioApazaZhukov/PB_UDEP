@@ -18,7 +18,7 @@ def diasFinAño(dia,mes,año):
     return diasAño(año) - diasEmpezoAño(dia,mes,año)
 
 def calculoFecha(dias):
-    años = dias//365
+    años = dias // 365
     if años > 0:
         dias -= años*365
     meses = dias // 30
