@@ -56,8 +56,8 @@ for i in range(len(gf)):
 for i in range(len(puntos)-1):
         for j in range(i+1, len(puntos)):
             if golp[i] < golp[j]:
-                swap(golp, i , j)
-                swap(goln, i , j)
+                golp[i],golp[j] = golp[j],golp[i]
+                goln[i],goln[j] = goln[j],goln[i]
 print("\nGoleadores:")
 print(f"{goln[0]} ==> {golp[0]}")
 for i in range(1, 6):
