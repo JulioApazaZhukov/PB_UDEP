@@ -1,8 +1,3 @@
-def swap(array, i, j):
-    aux = array[i]
-    array[i] = array[j]
-    array[j] = aux
-
 países = ["Perú", "Argentina", "Chile", "Brasil", "Bolivia", "Ecuador", "Uruguay", "Colombia", "Venezuela", "Paraguay"]
 pg = [6, 4, 4, 4, 4, 4, 2, 2, 1, 1]
 pe = [1, 4, 3, 1, 3, 0, 5, 4, 3, 2]
@@ -23,26 +18,26 @@ for i in range(len(pg)):
 for i in range(len(puntos)-1):
         for j in range(i+1, len(puntos)):
             if puntos[i] < puntos[j]:
-                swap(países, i , j)
-                swap(pg, i , j)
-                swap(pe, i , j)
-                swap(pp, i , j)
-                swap(gf, i , j)
-                swap(gc, i , j)
+                países[i],países[j] = países[j],países[i]
+                pg[i],pg[j] = pg[j],pg[i]
+                pe[i],pe[j] = pe[j],pe[i]
+                pp[i],pp[j] = pp[j],pp[i]
+                gf[i],gf[j] = gf[j],gf[i]
+                gc[i],gc[j] = gc[j],gc[i]
             elif puntos[i] == puntos[j] and dif_de_goles[i] < dif_de_goles[j]:
-                swap(países, i , j)
-                swap(pg, i , j)
-                swap(pe, i , j)
-                swap(pp, i , j)
-                swap(gf, i , j)
-                swap(gc, i , j)
+                países[i],países[j] = países[j],países[i]
+                pg[i],pg[j] = pg[j],pg[i]
+                pe[i],pe[j] = pe[j],pe[i]
+                pp[i],pp[j] = pp[j],pp[i]
+                gf[i],gf[j] = gf[j],gf[i]
+                gc[i],gc[j] = gc[j],gc[i]
             elif puntos[i] == puntos[j] and dif_de_goles[i] == dif_de_goles[j] and gf[i] < gf[j]:
-                swap(países, i , j)
-                swap(pg, i , j)
-                swap(pe, i , j)
-                swap(pp, i , j)
-                swap(gf, i , j)
-                swap(gc, i , j)
+                países[i],países[j] = países[j],países[i]
+                pg[i],pg[j] = pg[j],pg[i]
+                pe[i],pe[j] = pe[j],pe[i]
+                pp[i],pp[j] = pp[j],pp[i]
+                gf[i],gf[j] = gf[j],gf[i]
+                gc[i],gc[j] = gc[j],gc[i]
 
 for i in range(len(pe)):
     print(f"#{i+1} {países[i]} {puntos[i]}")

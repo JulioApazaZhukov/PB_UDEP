@@ -28,31 +28,27 @@ for i in range(50):
     pesos.append(peso)
     valores.append(valor)
 
-capacidad = 20  
+capacidad = 20
 n = len(nombres)
 
-tabla = [[0 for _ in range(capacidad + 1)] for _ in range(n + 1)]
+dp = [0] * (capacidad + 1)
+objeto_incluido = [-1] * (capacidad + 1) 
 
-for i in range(1, n + 1):
-    for w in range(capacidad + 1):
-        if pesos[i - 1] <= w:  
-            tabla[i][w] = max(
-                valores[i - 1] + tabla[i - 1][w - pesos[i - 1]],
-                tabla[i - 1][w]
-            )
-        else: 
-            tabla[i][w] = tabla[i - 1][w]
+for i in range(n):
+    for w in range(capacidad, pesos[i] - 1, -1):
+        if dp[w - pesos[i]] + valores[i] > dp[w]:
+            dp[w] = dp[w - pesos[i]] + valores[i]
+            objeto_incluido[w] = i
 
 w = capacidad
 objetos_seleccionados = []
 
-for i in range(n, 0, -1):
-    if tabla[i][w] != tabla[i - 1][w]:
-        objetos_seleccionados.append(i - 1)
-        w -= pesos[i - 1] 
+while w > 0 and objeto_incluido[w] != -1:
+    i = objeto_incluido[w]
+    objetos_seleccionados.append(i)
+    w -= pesos[i]
 
-print(f"Valor máximo obtenido: S/{tabla[n][capacidad]}")
-
+print(f"\nValor máximo obtenido: S/{dp[capacidad]}")
 print("Objetos seleccionados:")
 for i in objetos_seleccionados:
     print(f"- {nombres[i]} (Peso: {pesos[i]} kg, Valor: S/{valores[i]})")
