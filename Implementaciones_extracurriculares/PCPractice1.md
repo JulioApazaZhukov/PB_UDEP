@@ -42,3 +42,5 @@ El programa debe solicitar al usuario ingresar una opción (`a`, `b`, `c`, `d`).
 
 ### 6. Consideraciones Adicionales
 Puede agregar otras funciones que considere necesarias para mejorar la implementación.
+
+## [Solución](PCPractice1.py)
