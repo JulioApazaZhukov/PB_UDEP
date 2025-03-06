@@ -32,7 +32,7 @@ void border ()
 void loading ()
 {
     int turn = 0;
-    while (TRUE)
+    while (true)
     {
         int a;
         if (turn == 0)
