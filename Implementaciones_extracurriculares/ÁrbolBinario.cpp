@@ -35,7 +35,6 @@ class ArbolBinario {
             return nodo;
         }
 
-        // Recorrido Inorder (izquierda, raíz, derecha)
         void inorder(Nodo* nodo) {
             if (nodo != nullptr) {
                 inorder(nodo->izquierda);
@@ -44,7 +43,6 @@ class ArbolBinario {
             }
         }
 
-        // Recorrido Preorder (raíz, izquierda, derecha)
         void preorder(Nodo* nodo) {
             if (nodo != nullptr) {
                 cout << nodo->valor << " ";
@@ -53,7 +51,6 @@ class ArbolBinario {
             }
         }
 
-        // Recorrido Postorder (izquierda, derecha, raíz)
         void postorder(Nodo* nodo) {
             if (nodo != nullptr) {
                 postorder(nodo->izquierda);
@@ -74,7 +71,6 @@ int main() {
     arbol.insertar(arbol.raiz, 60);
     arbol.insertar(arbol.raiz, 80);
 
-    // Recorridos
     cout << "Recorrido Inorder: ";
     arbol.inorder(arbol.raiz);  // Salida esperada: 20 30 40 50 60 70 80
     cout << endl;
