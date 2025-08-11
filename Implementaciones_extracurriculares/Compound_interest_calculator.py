@@ -1,6 +1,6 @@
 def getArgs () -> list[float]:
     dataArray: list[float] = []   # [C0, r%, t]
-    capital0: float = float(input("Enter initial capital: %"))
+    capital0: float = float(input("Enter initial capital: $"))
     interestR: float = float(input("Enter interest rate (%): "))
     dataArray.append(capital0)
     dataArray.append(interestR)
